@@ -1,10 +1,4 @@
-# mocha-series
-Separate Mocha `it` blocks into discrete stages
-
-## Usage
-
-```javascript
-var series = require("mocha-series");
+var series = require(".");
 
 describe("examples", function() {
 
@@ -89,5 +83,6 @@ describe("examples", function() {
     });
 
   });
+
+
 });
-```

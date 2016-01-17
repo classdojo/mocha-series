@@ -1,0 +1,33 @@
+{
+  "name": "mocha-series",
+  "version": "1.0.0",
+  "description": "Separate Mocha `it` blocks into discrete stages",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classdojo/mocha-series.git"
+  },
+  "keywords": [
+    "mocha",
+    "test",
+    "series",
+    "stages",
+    "steps",
+    "step",
+    "tdd",
+    "bdd"
+  ],
+  "author": "Peter Hayes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/classdojo/mocha-series/issues"
+  },
+  "homepage": "https://github.com/classdojo/mocha-series#readme",
+  "devDependencies": {
+    "expect": "^1.13.4",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "async": "^1.5.2"
+  }
+}
