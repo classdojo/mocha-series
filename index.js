@@ -73,3 +73,7 @@ module.exports.only = function(seriesDescription, seriesRunner) {
   series(true, seriesDescription, seriesRunner);
 };
 
+module.exports.skip = function(seriesDescription) {
+  series(false, seriesDescription);
+};
+
