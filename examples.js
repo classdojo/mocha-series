@@ -66,7 +66,7 @@ describe("examples", function() {
 
   });
 
-  series("This should fail on its third step", function(step) {
+  series.only("This should fail on its third step", function(step) {
 
     step("Passing sync step", function() {
 

@@ -53,7 +53,6 @@ function series (only, seriesDescription, seriesRunner) {
   }
 
   var mochaFn = only ? it.only.bind(it) : it;
-  console.log("only?", only);
 
   if (!seriesRunner) {
     mochaFn(seriesDescription);

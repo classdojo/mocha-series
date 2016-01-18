@@ -1,6 +1,6 @@
 {
   "name": "mocha-series",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Separate Mocha `it` blocks into discrete stages",
   "main": "index.js",
   "repository": {
